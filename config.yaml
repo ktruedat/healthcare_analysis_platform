@@ -1,0 +1,5 @@
+surreal:
+  user: "root"
+  password: "root"
+  namespace: "healthcare"
+  database: "healthcare"
