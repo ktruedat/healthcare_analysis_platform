@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    environment:
+      SURREAL_USER: "root"
+      SURREAL_PASS: "root"
+      SURREAL_NAMESPACE: "healthcare"
+      SURREAL_DATABASE: "healthcare"
+    ports:
+      - "8000:8000"

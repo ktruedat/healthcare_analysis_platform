@@ -7,6 +7,7 @@ use surrealdb::engine::remote::ws::Client;
 use surrealdb::Surreal;
 // use uuid::Uuid;
 
+#[derive(Clone)]
 pub struct Repository<T: Entity + DeserializeOwned + Serialize> {
     pub db: Surreal<Client>,
     table_name: String,

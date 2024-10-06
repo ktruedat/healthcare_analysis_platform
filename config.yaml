@@ -1,5 +1,5 @@
 surreal:
   user: "root"
   password: "root"
-  namespace: "healthcare"
-  database: "healthcare"
+  ns: "healthcare"
+  db_name: "healthcare"
